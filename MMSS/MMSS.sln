@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMSS.Api", "MMSS.Api\MMSS.Api.csproj", "{7B06751E-3A35-4AB6-AF79-E252985F102D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_MMSS", "..\Web_MMSS\Web_MMSS.csproj", "{40D5C12C-A5F6-42F3-ADF6-E45D5FDF5CD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B06751E-3A35-4AB6-AF79-E252985F102D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B06751E-3A35-4AB6-AF79-E252985F102D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B06751E-3A35-4AB6-AF79-E252985F102D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B06751E-3A35-4AB6-AF79-E252985F102D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D5C12C-A5F6-42F3-ADF6-E45D5FDF5CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D5C12C-A5F6-42F3-ADF6-E45D5FDF5CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D5C12C-A5F6-42F3-ADF6-E45D5FDF5CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D5C12C-A5F6-42F3-ADF6-E45D5FDF5CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DD80C05-4C41-4C10-861A-764DDA5D5D86}
+	EndGlobalSection
+EndGlobal
