@@ -49,6 +49,7 @@ namespace MMSS.Api.Controllers
         {
             return Ok(Shows);
         }
+
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -56,6 +57,39 @@ namespace MMSS.Api.Controllers
             if (sh == null) return BadRequest("O programa não foi encontrado.");
 
             return Ok(sh);
+        }
+
+        [HttpGet("pornome/{name}")]
+        public IActionResult GetByName(string name)
+        {
+            var sh = Shows.FirstOrDefault(s => s.Title.ToUpper().Contains(name.ToUpper()));
+            if (sh == null) return BadRequest("O programa não foi encontrado.");
+
+            return Ok(sh);
+        }
+
+        [HttpPost]
+        public IActionResult Post(Show show)
+        {
+            return Ok();
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, Show show)
+        {
+            return Ok();
+        }
+
+        [HttpPatch("{id}")]
+        public IActionResult Patch(int id, Show show)
+        {
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            return Ok();
         }
     }
 }
