@@ -6,7 +6,7 @@ namespace MMSS.Api.Models
     {
         public PlatformShow() { }
 
-        public PlatformShow(int showId, string platformId)
+        public PlatformShow(int showId, int platformId)
         {
             this.ShowId = showId;
             this.PlatformId = platformId;
@@ -14,7 +14,7 @@ namespace MMSS.Api.Models
 
         public int ShowId { get; set; }
         public Show Show { get; set; }
-        public string PlatformId { get; set; }
+        public int PlatformId { get; set; }
         public Platform Platform { get; set; }
 
    }
